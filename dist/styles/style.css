@@ -1,0 +1,65 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  background-image: url('../images/jason-leung-poI7DelFiVA-unsplash-min.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  font-family: 'PT Serif', Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  font-size: 1.5em;
+  color: white;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.logo-title {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  width: 960px;
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+  margin: 0 auto;
+  text-shadow: 3px 3px 3px #000;
+}
+
+.hero h1 {
+  font-size: 4em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero h2 {
+  font-size: 2em;
+  line-height: 1.2em;
+}
