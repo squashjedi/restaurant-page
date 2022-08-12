@@ -1,4 +1,5 @@
 const menu = (main) => {
+  main.textContent = ''
   const hero = document.createElement('div')
   hero.classList.add('hero')
   main.appendChild(hero)

@@ -1,3 +1,4 @@
+// import navbar from './navbar'
 import homepage from './homepage'
 import menu from './menu'
 import contact from './contact'
@@ -27,15 +28,12 @@ content.appendChild(main)
 homepage(main)
 
 liHome.addEventListener('click', () => {
-  main.textContent = ''
   homepage(main)
 })
 liMenu.addEventListener('click', () => {
-  main.textContent = ''
   menu(main)
 })
 liContact.addEventListener('click', () => {
-  main.textContent = ''
   contact(main)
 })
 

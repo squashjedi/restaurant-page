@@ -13,6 +13,7 @@ const navBar = () => {
         </div>
       </nav>
     </header>
+    <main></main>
   `
 }
 
